@@ -1,4 +1,4 @@
-# Agente de E-mails Diários (Daily Email Digest)
+# Agente de Resumo de E-mails Diário
 
 ## Descrição Geral
 
