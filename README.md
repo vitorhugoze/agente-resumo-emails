@@ -6,16 +6,16 @@ Este skill do Hermes Agent automatiza o processo de busca, resumo do conteudo e 
 
 ## Funcionalidades
 
-+--------------------------+     +--------------------------+     +--------------------------+     +--------------------------+
-|          Início          | --> | Buscar e-mails não lidos | --> | Processar e-mails        | --> |       Tem e-mails?       |
-+--------------------------+     +--------------------------+     +--------------------------+     +--------------------------+
-                                                                                                            |
-                                                                                                    (Sim)   |
-                                                                                                            v
-+--------------------------+     +--------------------------+     +--------------------------+
-| Gerar Resumo             | --> |  Enviar p/ WhatsApp      | --> |         Fim              |
-| (Sub-agente + Prompt)    |     +--------------------------+     +--------------------------+
-+--------------------------+     
+```mermaid
+graph TD
+    A[Início] --> B(Buscar e-mails não lidos);
+    B --> C(Processar e-mails);
+    C --> D{Tem e-mails?};
+    D -- Sim --> E(Gerar Resumo);
+    E --> F(Enviar p/ WhatsApp);
+    F --> G[Fim];
+    D -- Não --> G;
+```
 
 
 *   **Busca de E-mails Não Lidos:** Utiliza a ferramenta [Himalaya CLI](https://github.com/hermes-agent/himalaya) para conectar-se a uma conta de e-mail e buscar e-mails não lidos das últimas 24 horas.
