@@ -7,7 +7,7 @@ Este skill do Hermes Agent automatiza o processo de busca, resumo do conteudo e 
 ## Funcionalidades
 
 ```mermaid
-graph TD
+graph LR
     A[Início] --> B(Buscar e-mails não lidos);
     B --> C(Processar e-mails);
     C --> D{Tem e-mails?};
