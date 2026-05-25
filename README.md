@@ -2,7 +2,7 @@
 
 ## Descrição Geral
 
-Este skill do Hermes Agent automatiza o processo de busca, resumo do conteudo e envio de e-mails não lidos para um número de WhatsApp específico. Ele foi projetado para manter o usuário informado sobre novas comunicações de forma concisa e eficiente.
+Este agente criado utilizando Hermes Agent automatiza o processo de busca, resumo do conteudo e envio de e-mails não lidos para um número de WhatsApp específico. Ele foi projetado para manter o usuário informado sobre novas comunicações de forma concisa e eficiente.
 
 ## Funcionalidades
 
